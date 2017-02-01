@@ -1,0 +1,19 @@
+# List imports as wild card, export services are listed out.
+(org.osgi.framework.PackagePermission "*" "import")
+(org.osgi.framework.PackagePermission "${package}.api" "export")
+
+# Registered services
+(org.osgi.framework.ServicePermission "*" "register")
+
+# Get other services.
+(org.osgi.framework.ServicePermission "*" "get")
+
+# Generic stuff
+(org.osgi.service.cm.ConfigurationPermission "*" "configure")
+(org.osgi.service.event.TopicPermission "*" "publish")
+(java.util.PropertyPermission "*" "read")
+(java.lang.RuntimePermission "getClassLoader")
+(java.lang.RuntimePermission "setContextClassLoader")
+(java.lang.reflect.ReflectPermission "suppressAccessChecks")
+(java.lang.RuntimePermission "accessDeclaredMembers")
+(org.osgi.framework.AdaptPermission "*" "adapt")
