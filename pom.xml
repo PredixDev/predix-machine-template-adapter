@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.ge.predix.solsvc</groupId>
 	<artifactId>predix-machine-template-adapter</artifactId>
-	<version>1.1.8</version>
+	<version>1.1.10</version>
 	<packaging>bundle</packaging>
 
 	<properties>
